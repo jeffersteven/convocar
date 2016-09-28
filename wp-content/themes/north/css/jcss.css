@@ -1,0 +1,50 @@
+.profesional .WEB, .profesional .NOMBREORAZON, 
+.profesional .NIT, .profesional .PERSONAADMIN,
+ .profesional .PERSONAPRES, 
+ .profesional .CATEGORIA, 
+ .profesional .CATEGORIA2, 
+ .profesional .CATEGORIA3, 
+ .profesional .LOGO,
+  .profesional .conjper{
+	display:none;
+}
+
+.propiedadhorizontal .WEB, 
+.propiedadhorizontal .DESCRIPCION,
+.propiedadhorizontal .CEDULA, 
+.propiedadhorizontal .CATEGORIA, 
+.propiedadhorizontal .CATEGORIA2, 
+.propiedadhorizontal .CATEGORIA3, 
+.propiedadhorizontal label[for=first_name], 
+.propiedadhorizontal #first_name, 
+.propiedadhorizontal .TITULO, 
+.propiedadhorizontal .CARGO,
+.propiedadhorizontal .CARGO2, 
+.propiedadhorizontal .CURRICULUM, 
+.propiedadhorizontal .LOGO,
+.propiedadhorizontal .conjper{
+	display:none;
+} 
+.propiedadhorizontal .des2.DESCRIPCION{
+	display:none;
+}
+
+.proveedores .PERSONAPRES,
+.proveedores .PERSONAADMIN,
+.proveedores .CEDULA,
+.proveedores label[for=first_name],
+ .proveedores #first_name, 
+ .proveedores .TITULO, 
+ .proveedores .CARGO, 
+ .proveedores .CURRICULUM,
+ .proveedores .CARGO2,
+ .proveedores .conjper{
+	display:none;
+}
+[for=url],#url{
+	display:none;
+}
+
+#your-profile fieldset{
+	display:block !important;
+}
